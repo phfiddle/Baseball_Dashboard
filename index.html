@@ -1,8 +1,39 @@
 <!DOCTYPE html>
-<html>
-  <head><title>My GitHub Page</title></head>
-  <body>
-    <h1>Welcome to my site</h1>
-    <a href="dashboard.html">Go to dashboard</a>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Embedded Looker Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+    }
+    iframe {
+      width: 95%;
+      height: 90vh;
+      border: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Looker Studio Dashboard</h1>
+  </header>
+
+  <iframe 
+    src="https://lookerstudio.google.com/embed/reporting/d4c4245e-6866-4418-bd1b-e2a3bd2bbdc5/page/p_zr59hvtbgd"
+    allowfullscreen
+    sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+  </iframe>
+</body>
 </html>
